@@ -1,0 +1,314 @@
+* ::after ::before{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcfcfc;
+}
+.header__menu img{
+    height: 1em;
+    width: 1em;
+    justify-self: end;
+    align-self: center;
+}
+.header__menu{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 0em;
+}
+.header__menu p{
+    font-family: cursive;
+}
+main{
+    margin: 0em;
+    padding: 0em;
+}
+.header__wooten{
+text-align: center;
+display: block;
+margin-top: 0em;
+padding: 0em;
+}
+.header__hide{
+display: none;
+
+}
+.header__wooten span{
+    display: block;
+}
+ .image__animate img{
+    height: 14em;
+    width: 100%;
+    object-fit: contain;
+    padding: 0em;
+    margin: 0em;
+    
+
+}
+.img2{
+    width: 100%;
+    overflow: hidden;
+}
+
+.image__animate{
+    padding: 0em;
+    margin: 0em;
+}
+main p{
+    text-align: center;
+}
+.shoe__image{
+    height: 50%;
+    width: 80%;
+    text-align: center;
+    object-fit: contain;
+    padding: 0em;
+    margin: 0em;
+}
+.custom img{
+    height: 100%;
+    width: 80%;
+
+}
+.heritage img{
+    height: 3em;
+    width: 3em;
+
+}
+.process img{
+    height: 6em;
+    width: 6em;
+
+}
+.boot{
+display: block;
+text-align: center;
+margin: 0em;
+margin-top: 2em;
+padding: 0em;
+width: 100%;
+background-color: #ededed;
+box-shadow: 3px 3px 8px black;
+
+}
+.gusset__colors{
+    display: inline-flex;
+    font-size: 0.2em;
+    margin-left:11.6em;
+    padding: 0em;
+    grid-auto-rows: 0em;
+    grid-auto-columns: 0em;
+    width: 100%;
+    gap: 0.7em;
+    text-align: center;
+}
+.gusset__colors p{
+    
+    height:4.5em;
+    width: 4.5em;
+    text-align: center;
+}
+.c1{
+    background-color: #593128;
+}
+.c2{
+    background-color: #16202c;
+}
+.c3{
+    background-color: #325959;
+}
+.c4{
+    background-color: #F2C3A7;
+}
+.c5{
+    background-color: #800000;
+}
+.c6{
+    background-color: #1B1259;
+}
+.c7{
+    background-color: #6F04D9;
+}
+
+
+.div__shoe{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.services{
+    display: block;
+    text-align: center;
+    background-color: #593128
+}
+.services p strong{
+    font-size: 1.6em;
+    font-weight: 600;
+    display: block;
+}
+.services > p{
+    font-size: 1.3em;
+    font-weight: 600;
+    border-style: dashed;
+    border-color: black;
+    width: 70%;
+    margin-top: 0em;
+    text-align: center;
+    border-width: thin;
+    margin-left: 3em;
+    padding: 0.5em 0.2em 0.5em 0.2em;
+    color: #fcfcfc;
+}
+
+.custom{
+    display: block;
+    width: 85%;
+    
+margin : 0em auto;
+
+}
+.custom p{
+text-align: start;
+margin: 0em;
+padding: 1% 0% 0% 4% ;
+font-weight: 400;
+background-color: #ededed;
+border: none;
+
+}
+
+.custom img{
+    width: 100%;
+    object-fit: contain;
+    height: 55%;
+    margin-top: 0%;
+    padding-top: 0%;
+    border: none;
+}
+.heritage{
+    margin: 0%;
+    padding: 0%;
+    height: 10em;
+    color: #fcfcfc;
+    box-shadow: 2px 3px 8px burlywood;
+
+    background-image: url('./images/wooten1.jpg');
+}
+.heritage p{
+
+    font-family: 'Times New Roman', Times, serif;
+}
+.heritage p span{
+    display: block;
+    margin: 0%;
+    padding:0%;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.heritage img{
+    height: 100%;
+    width: 100%;
+}
+.process {
+    height: 10em;
+    background-image: url('./images/wooten1.jpg');
+margin: 0%;
+padding: 0%;
+box-shadow: 2px 3px 8px burlywood;
+}
+.process p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #fcfcfc;
+}
+
+.process p span{
+    display: block;
+    margin: 0%;
+    padding:0%;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.process img{
+    height: 100%;
+    width: 100%;
+}
+.products{
+background-color: #ededed;
+box-shadow: 3px 3px 9px black;
+
+}
+
+.products h3{
+text-align: center;
+}
+.footwear{
+    background-color: #fcfcfc;
+    width: 80%;
+    margin: 0% auto;
+    box-shadow: 1px 1px 4px black ;
+}
+input{
+    width: 60%;
+    margin-left: 2em;
+    background-color: #fcfcfc;
+    border: none;
+}
+.sign{
+    color: rgb(119, 3, 3) ;
+    padding: 1em;
+}
+footer{
+    background-color: #16202c;
+    margin-top: 0%;
+    color: #fcfcfc;
+    line-height: 2em;
+    font-size: 1.4em;
+    padding-left: 1.4em;
+    padding-right: 0.5em;
+
+}
+
+.foot h4{
+font-weight: 900;
+font-size: 1em;
+}
+.mwisho1{
+    text-align: center;
+}
+.mwisho2{
+    color: #ededed;
+    font-family: cursive;
+}
+
+
+
+@keyframes image {
+    25%{
+        background: url('./images/wooten2.jpg')
+    }
+    50%{
+        background: url('./images/wooten3.jpg')
+    }
+    75%{
+        background: url('./images/wooten4.jpg')
+    }
+    100%{
+        background: url('./images/wooten1.jpg')
+    }
+}
+
+
+
+
+
+
+
+
+
